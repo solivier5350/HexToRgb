@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100%;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  top: 10;
+  width: 50%;
+  height: 100%;
+  color: white;
+  font-family: serif;
+}
+
+.right {
+  position: absolute;
+  right: -200px;
+  top: 10;
+  width: 50%;
+  height: 100%;
+  color: white;
+  font-family: serif;
+}
+
+#rgbResult {
+  color: white;
+}
+
+#hexResult {
+  color: white;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #afb7b9;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #555859;
+}
+
+button:active {
+  transform: scale(0.95); /*press effect */
+}
