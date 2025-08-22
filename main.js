@@ -87,5 +87,4 @@ rgbInput.addEventListener("keydown", (event) => {
 rgbInput.addEventListener("input", () => {
   hexResult.textContent = "";
 })
-
 //Removes result when input changes

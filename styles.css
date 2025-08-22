@@ -15,18 +15,14 @@ html, body {
   position: absolute;
   left: 10px;
   top: 10;
-  width: 50%;
-  height: 100%;
   color: white;
   font-family: serif;
 }
 
 .right {
   position: absolute;
-  right: -200px;
+  right: 10px;
   top: 10;
-  width: 50%;
-  height: 100%;
   color: white;
   font-family: serif;
 }
@@ -55,5 +51,5 @@ button:hover {
 }
 
 button:active {
-  transform: scale(0.95); /*press effect */
+  transform: scale(0.95);
 }
